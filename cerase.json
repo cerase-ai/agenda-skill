@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "namespace": "studio.guidance",
+  "name": "agenda",
+  "type": "skill",
+  "display_name": "Agenda",
+  "description": "Use when a scheduled message asks for the day's agenda, when the person asks what is in their calendar today, tomorrow or this week, or when they ask to receive their agenda every morning, to change its time or to stop it. It reads the calendar on the organisation's clock and writes one message: each appointment with its time, who attends, its place or video link and the material it carries, and any overlap. It offers to prepare one of the meetings and, for a call with a video link, to send the meeting capture to it. Reading the calendar changes nothing in it; the capture is booked only for the call the person chooses, and to receive the agenda every morning it asks only the time, then schedules one recurring message on working days that names this skill, which waits for the person's approval.",
+  "license": "MIT"
+}

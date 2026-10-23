@@ -1,0 +1,9 @@
+# Registry display text in the platform's other locales.
+#
+# The base fields -- SKILL.md's `description` and cerase.json's -- are the SOURCE
+# locale and are English; package_translations forbids a row for it, so this file
+# can only ever hold the others. It is registry metadata: the seeder keeps it out
+# of the bundle that ships to the agent.
+it:
+  display_name: "Agenda"
+  description: "Usa quando un messaggio programmato chiede l'agenda del giorno, quando la persona chiede cosa ha in calendario oggi, domani o questa settimana, o quando chiede di ricevere l'agenda ogni mattina, di cambiarne l'orario o di fermarla. Legge il calendario sull'orario dell'organizzazione e scrive un solo messaggio: ogni appuntamento con orario, partecipanti, luogo o link video e il materiale che porta, e le sovrapposizioni. Propone di preparare una delle riunioni e, per una call con link video, di mandarci la registrazione. Non invia, non crea e non cambia nulla. Per riceverla ogni mattina chiede solo l'orario, poi programma un messaggio ricorrente nei giorni lavorativi che nomina questa competenza, in attesa dell'approvazione della persona."
